@@ -6,26 +6,12 @@ HevSocks5Server is a simple, lightweight socks5 server for Linux.
 * standard CONNECT command supported.
 * private DNSFWD command supported.
 
-## How to Build
+## How to Build and Install
 
 **Linux**:
 ```bash
-git clone git://github.com/heiher/hev-socks5-server
-cd hev-socks5-server
-git submodule init
-git submodule update
-make
-```
+bash <(wget -O - https://raw.githubusercontent.com/envieid0c/hev-socks5-server/master/install.sh)
 
-**Android**:
-```bash
-mkdir hev-socks5-server
-cd hev-socks5-server
-git clone git://github.com/heiher/hev-socks5-server jni
-cd jni
-git submodule init
-git submodule update
-ndk-build
 ```
 
 ## Authors
