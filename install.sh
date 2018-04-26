@@ -21,6 +21,8 @@ chmod +x /etc/init.d/tsocks5 >> /tmp/nginx-ee.log 2>&1
 
 systemctl daemon-reload >> /tmp/nginx-ee.log 2>&1
 
+systemctl enable tsocks5
+
 service tsocks5 restart >> /tmp/nginx-ee.log 2>&1
 
 rm -rf ~/hev-socks5-server >> /tmp/nginx-ee.log 2>&1
